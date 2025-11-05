@@ -6,7 +6,7 @@ CREATE TABLE usuario (
     usnombre VARCHAR(50) NOT NULL,
     uspass INT(11) NOT NULL,
     usmail VARCHAR(50),
-    usdeshabilitado TIMESTAMP
+    usdeshabilitado TIMESTAMP NULL DEFAULT NULL
 );
 
 CREATE TABLE rol (
