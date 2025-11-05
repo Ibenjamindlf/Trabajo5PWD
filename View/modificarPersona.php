@@ -14,8 +14,6 @@ if ($id) {
         $usuario = $usuario[0];
     }
 }
-
-print_r($usuario);
 ?>
 
 <!DOCTYPE html>
